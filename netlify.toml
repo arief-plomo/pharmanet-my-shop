@@ -8,6 +8,7 @@
   NPM_VERSION = "8"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
   NPM_FLAGS = "--prefer-offline --no-audit"
+  SECRETS_SCAN_OMIT_KEYS = "VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY"
 
 # No plugins section - remove all plugin configurations
 
